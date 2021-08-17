@@ -1,5 +1,6 @@
 mkdocs
 mkdocs-cluster
+mkdocs-macros-plugin
 pymdown_extensions
 rdflib
 pyld
