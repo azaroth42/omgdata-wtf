@@ -1,0 +1,43 @@
+site_name: "OMG, Data... WTF?"
+site_url: "https://omg-data.wtf/"
+site_author: "Rob Sanderson (robert.sanderson@yale.edu)"
+site_description: "Data Science Group Therapy"
+dev_addr: '127.0.0.1:8080'
+repo_url: "https://github.com/linked-art/linked.art"
+
+theme: cluster
+#theme: material
+nav:
+  - Home: index.md
+  - About: about.md
+
+markdown_extensions:
+        - fenced_code
+        - def_list
+        - tables
+        - abbr
+        - attr_list
+        - admonition
+        - toc:
+            title: "Table of Contents"
+        - pymdownx.tasklist
+        - pymdownx.superfences:
+            custom_fences:
+              - name: mermaid
+                class: mermaid
+                format: !!python/name:mermaid2.fence_mermaid
+
+plugins:
+    - search
+    - mermaid2:
+        version: '8.11.4'
+        arguments:
+          theme: 'neutral'
+          logLevel: 3
+          flowchart: 
+            curve: 'basis'
+          securityLevel: 'loose'
+    - linkedart:
+        linkAAT: False
+    - macros
+  
