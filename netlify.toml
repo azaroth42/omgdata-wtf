@@ -2,6 +2,6 @@
   # Base directory where site is built from
   base    = "."
   # Directory published to
-  publish = ".site"
+  publish = "site"
   # command to run to build
   command = "sh ./build.sh"
