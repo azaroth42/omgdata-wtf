@@ -1,5 +1,5 @@
 mkdocs
-mkdocs-cluster-theme
+mkdocs-cluster
 pymdown_extensions
 rdflib
 pyld
