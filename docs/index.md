@@ -3,9 +3,13 @@ title: "OMG, Data... WTF? Egregious Errors in Cultural Heritage Data"
 ---
 
 
-# Data Science Group Therapy
+# Data Science and Data Engineering Group Therapy
 
 
 
 ## Latest Egregious Data Errors
+
+* __Dates.__ We hate dates. No one can get them right. It's almost like you need a Ph.D. in History to understand how to format a date so that someone else can understand you. And then there's people being funny...
+  ![Hopefully you DIAF](/images/2021-08-17-deathdate1.png)
+  Strangely, even my reasonably clever series of date parsers fails to extract an actual death date for this lad.
 
