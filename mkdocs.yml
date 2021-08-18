@@ -1,12 +1,18 @@
 site_name: "OMG, Data... WTF?"
 site_url: "https://omg-data.wtf/"
-site_author: "Rob Sanderson (robert.sanderson@yale.edu)"
+site_author: "Rob Sanderson (azaroth42@gmail.com)"
 site_description: "Data Science Group Therapy"
 dev_addr: '127.0.0.1:8080'
-repo_url: "https://github.com/linked-art/linked.art"
+repo_url: "https://github.com/azaroth42/omgdata-wtf"
 
-theme: cluster
+extra_css:
+  - media/css/local.css
+
+theme: 
+  name: material
+  logo: 'media/img/broken_file_logo.png'
 #theme: material
+
 nav:
   - Home: index.md
   - About: about.md
