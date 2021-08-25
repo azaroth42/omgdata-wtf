@@ -2,7 +2,7 @@
 title: About The Site
 ---
 
-# What is OMG Data ... WTF?
+# What is OMG, Data ... WTF?
 
 The site is mostly venting about the crappy data that we have to deal with every day in cultural heritage.
 

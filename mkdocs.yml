@@ -4,6 +4,7 @@ site_author: "Rob Sanderson (azaroth42@gmail.com)"
 site_description: "Data Science Group Therapy"
 dev_addr: '127.0.0.1:8080'
 repo_url: "https://github.com/azaroth42/omgdata-wtf"
+edit_uri: "https://github.com/azaroth42/omgdata-wtf/edit/main"
 
 extra_css:
   - media/css/local.css
